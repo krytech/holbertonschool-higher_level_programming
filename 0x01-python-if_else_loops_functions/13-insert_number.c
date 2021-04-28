@@ -10,7 +10,6 @@
 listint_t *insert_node(listint_t **head, int number)
 {
 	listint_t *new, *ph = *head;
-	unsigned int i = 0;
 
 	if ((!ph) || ph->n > number)
 	{
@@ -36,7 +35,6 @@ listint_t *insert_node(listint_t **head, int number)
 			return (new);
 		}
 		ph = ph->next;
-		i++;
 	}
 	return (NULL);
 }
