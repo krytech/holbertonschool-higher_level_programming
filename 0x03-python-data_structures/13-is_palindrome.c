@@ -10,7 +10,7 @@ int is_palindrome(listint_t **head)
 {
 	listint_t *ph = *head;
 	unsigned int size = 0, i = 0;
-	int data[10000];
+	int data[10240];
 
 	if (!head) /* no list is not a pal */
 		return (0);
