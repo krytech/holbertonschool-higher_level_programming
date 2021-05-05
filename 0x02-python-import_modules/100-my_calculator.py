@@ -11,7 +11,7 @@ if __name__ == "__main__":
     if op not in func:
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
-    
+
     a = int(argv[1])
     b = int(argv[3])
     print("{:d} {} {:d} = {:d}".format(a, op, b, func[op](a, b)))
