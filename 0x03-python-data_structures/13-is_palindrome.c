@@ -25,12 +25,12 @@ int is_palindrome(listint_t **head)
 	}
 
 	ph = *head;
-	while (ph) /* saves numbers to compare */ 
+	while (ph) /* saves numbers to compare */
 	{
 		data[i++] = ph->n;
 		ph = ph->next;
 	}
-	
+
 	/* compare the start and end of the list until the mid point */
 	for (i = 0; i <= (size / 2); i++)
 	{
