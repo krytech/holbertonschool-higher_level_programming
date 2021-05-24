@@ -3,7 +3,8 @@
 A rectangle class with private attributes for
 height and width, area and perimeter methods, prints
 the rectangle using any given symbol, deletes itself and
-keeps track of the number of instances for deletion
+keeps track of the number of instances for deletion. There is
+also a stactic method that returns the bigger rectangle out of two.
 """
 
 
