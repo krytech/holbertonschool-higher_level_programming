@@ -28,3 +28,9 @@ TypeError: testme must be an integer
 Traceback (most recent call last):
 ...
 TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
+
+>>> bg = BaseGeometry()
+>>> bg.integer_validator("testme", [1, 2, 3])
+Traceback (most recent call last):
+...
+TypeError: testme must be an integer
