@@ -30,6 +30,12 @@ Traceback (most recent call last):
 TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
 
 >>> bg = BaseGeometry()
+>>> bg.integer_validator("test")
+Traceback (most recent call last):
+...
+TypeError: integer_validator() missing 1 required positional argument: 'value'
+
+>>> bg = BaseGeometry()
 >>> bg.integer_validator("testme", [1, 2, 3])
 Traceback (most recent call last):
 ...
