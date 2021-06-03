@@ -12,3 +12,9 @@ Tests:
 [-5, 5, 10]
 >>> print(my_list)
 [5, 10, -5]
+
+>>> empty = MyList()
+>>> print(empty)
+[]
+>>> empty.print_sorted()
+[]
