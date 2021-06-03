@@ -58,3 +58,9 @@ TypeError: testme must be an integer
 Traceback (most recent call last):
 ...
 TypeError: testme must be an integer
+
+>>> bg = BaseGeometry()
+>>> bg.integer_validator("testme", {"key": 1})
+Traceback (most recent call last):
+...
+TypeError: testme must be an integer
