@@ -63,7 +63,7 @@ class Base:
                     instances.append(cls.create(**content[i]))
                 return instances
         except FileNotFoundError:
-            return "[]"
+            return []
 
     @classmethod
     def save_to_file_csv(cls, list_objs):
